@@ -1,0 +1,6 @@
+app{
+    margin: 100px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
