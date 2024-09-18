@@ -61,7 +61,7 @@ export default function CheckboxRowSelectionDemo() {
     setRowClick(!rowClick);
   };
 
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = (e) => {
     e.preventDefault();
     const n: number = parseInt(e.target[0].value);
     setRowSelectionCount(n);
